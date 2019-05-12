@@ -33,19 +33,22 @@ Install NVIDIA Graphics Card
 	reboot
 	sudo systemctl isolate multi-user.target
 
-### Install the NVIDIA graphic driver.
+Install the NVIDIA graphic driver
+---------------------------------
 
 	reboot
 
 
-######## Insatll EPEL Repository ########
+Insatll EPEL Repository
+-----------------------
 
 	sudo yum repolist
 	sudo yum -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 	sudo yum repolist
 
 
-######## Insatll RPM Fusion Repository ########
+Insatll RPM Fusion Repository
+-----------------------------
 
 	sudo yum localinstall --nogpgcheck https://download1.rpmfusion.org/free/el/rpmfusion-free-release-7.noarch.rpm https://download1.rpmfusion.org/nonfree/el/rpmfusion-nonfree-release-7.noarch.rpm
 	sudo yum repolist
@@ -65,7 +68,8 @@ Install NVIDIA Graphics Card
 
 
 
-###### Autodesk Maya 2018.5 Install ######
+Autodesk Maya 2018.5 Install
+----------------------------
 
 	sudo yum -y install xorg-x11-fonts-ISO8859-1-100dpi xorg-x11-fonts-ISO8859-1-75dpi xorg-x11-fonts-100dpi xorg-x11-fonts-75dpi
 	sudo yum -y install mesa-libGLw libXp libXp-devel gamin e2fsprogs-libs tcsh
