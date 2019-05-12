@@ -54,7 +54,6 @@ Insatll RPM Fusion Repository
 	sudo yum repolist
 
 
-
 	sudo yum -y install gnome-tweaks.noarch
 	sudo yum -y install ntfs-3g
 	sudo yum -y install lm_sensors
@@ -79,7 +78,7 @@ Autodesk Maya 2018.5 Install
 Houdini
 -------
 
-	sudo yum -y install libnsl
+lib - libnsl
 
 
 
