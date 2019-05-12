@@ -33,7 +33,7 @@ Install NVIDIA Graphics Card
 	reboot
 	sudo systemctl isolate multi-user.target
 
-# Install the NVIDIA graphic driver.
+### Install the NVIDIA graphic driver.
 
 	reboot
 
