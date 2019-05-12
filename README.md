@@ -72,6 +72,10 @@ Install NVIDIA Graphics Card
 	sudo yum -y install compat-openssl10.x86_64 libpng12
 
 
+Houdini
+-------
+
+	sudo yum -y install libnsl
 
 
 
