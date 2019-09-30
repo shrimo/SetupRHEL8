@@ -80,6 +80,23 @@ Houdini
 
 lib - libnsl
 
+CentOS 8
+--------
+
+ - Maya 2019
+ 
+ ```
+ 
+ sudo yum -y install xorg-x11-fonts-ISO8859-1-100dpi xorg-x11-fonts-ISO8859-1-75dpi xorg-x11-fonts-100dpi xorg-x11-fonts-75dpi
+ 
+ sudo yum -y install mesa-libGLw libXp libXp-devel gamin e2fsprogs-libs tcsh
+ 
+ sudo yum -y install compat-openssl10.x86_64 libpng12
+ 
+ sudo yum -y install pcre-devel
+ 
+ sudo ln -s /usr/autodesk/maya2019/lib/libtbb_preview.so.2 /usr/lib64/libtbb_preview.so.2
+ ```
 
 
 
